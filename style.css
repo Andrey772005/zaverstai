@@ -1,0 +1,670 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-width: 1440px;
+    height: auto;
+    background: #ffffff;
+    font-family: "Open Sans", "Spectral SC", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 25px;
+    color: #2e2f22;
+
+}
+/* Гланые ссылки */
+.site-navigation-item a {
+    text-decoration: none;
+    font-family: "Open Sans" sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #2e2f22;
+
+}
+/* Список главных ссылок */
+li {
+    list-style: none;
+}
+/* Заголовок h1 */
+.visually-hidden {
+    position: absolute;
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0;
+    border: 0;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+/* Верхний главный контейнер */
+.main-header {
+    min-width: 1440px;
+    height: 581px;
+    background-image: url(img/main.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+
+}
+/* Логотип */
+.logo {
+    float: left;
+    width: 230px;
+    height: 82;
+    margin-top: 4px;
+    margin-left: 120px;
+}
+/* Навигация */
+.main-header-navigation {
+    float: right;
+    width: 650px;
+    margin-top: 20px;
+    margin-right: 121px;
+}
+/* Внутренний блок навигации */
+.site-navigation {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/* Конец шапки */
+
+/* Основное содержимое */
+
+/* Все статьи div */
+.all-articles {
+    width: 1200px;
+    height: auto;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Все статьи div h2 */
+.heading {
+    margin-bottom: 49px;
+    width: auto;
+    height: 55px;
+    display: block;
+    float: left;
+}
+
+/* Все статьи h2 */
+#allarticles {
+    display: inline;
+    margin-left: 0;
+    font-family: Spectral SC;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 55px;
+    color: #2E2F22;
+}
+
+/* Выпадающий список div*/
+.down-list {
+    margin-top: 10px;
+    float: right;
+    width: 203px;
+    height: 46px;
+    background: #D7D1C9;
+    border-radius: 10px;
+}
+
+/* Треугольник SVG */
+.down-list img {
+    margin-left: 33px;
+    margin-top: 10px;
+}
+
+/* Выбрать тему в выпадающем списке */
+.select {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 11px;
+    font-family: "Open Sans" sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #2E2F22;
+}
+
+/* Статьи */
+.articles {
+    clear: both;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Статья Берлин */
+.berlin {
+    width: 387px;
+    height: 413px;
+}
+/* Берлин фото */
+.berlin img {
+    display: block;
+}
+/* Берлин заголовок */
+.berlin h3 {
+    display: block;
+    box-sizing: border-box;
+    margin-top: 12px;
+    margin-bottom: 0px;
+    font-family: "Spectral SC" sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    color: #2E2F22;
+}
+/* Краткое описание всех статей */
+.description  {
+    display: block;
+    font-family: "Open Sans" sans-serif;
+    margin-top: 2px;
+    margin-bottom: 12px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height:  26px;
+    color: #2E2F22;
+}
+/* Общие теги первых трех статей статьи */
+.tags {
+    display: block;
+    float: left;
+    margin-top: 0;
+    font-family: "Open Sans" sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(46, 47, 34, 0.7);
+}
+
+/* Дата статей */
+time {
+    display: block;
+    float: right;
+    font-family: "Open Sans" sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(46, 47, 34, 0.7);
+}
+
+/* Статья Колдбрю */
+.coldbru {
+    margin-left: 19px;
+    width: 387px;
+    height: 413px;
+}
+/* Колдбрю фото */
+.coldbru img {
+    display: block;
+}
+/* Колдбрю заголовок */
+.coldbru h3 {
+    display: block;
+    box-sizing: border-box;
+    margin-top: 12px;
+    margin-bottom: 0px;
+    font-family: "Spectral SC" sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    color: #2E2F22;
+}
+
+/* Статья Книжные рекомендации  */
+.book-recommendations {
+    margin-left: 19px;
+    width: 387px;
+    height: 413px;
+}
+/* Книжные рекоммендации фото */
+.book-recommendations img {
+    display: block;
+}
+/* Книжные рекоммендации заголовок */
+.book-recommendations h3 {
+    display: block;
+    box-sizing: border-box;
+    margin-top: 12px;
+    margin-bottom: 0px;
+    font-family: "Spectral SC" sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    color: #2E2F22;
+}
+
+/* Статья Снимки на пленку */
+.spring-foto {
+    margin-top: 20px;
+    width: 590px;
+    height: 552px;
+    background-image: url(img/springfoto.png);
+}
+
+.spring-foto h3{
+    font-family: "Spectral SC" sans-serif;
+    margin-top: 359px;
+    margin-left: 82px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.description-foto {
+    display: block;
+    margin-left: 82px;
+    font-family: "Open Sans" sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+/* Теги статей фото и чизкейк */
+.tags2 {
+    margin-top: 0;
+    margin-left: 82px;
+    float: left;
+    font-family: "Open Sans" sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(255, 255, 255, 0.7);
+}
+/* Дата статей фото и чизкейк */
+.time {
+    margin-right: 79px;
+    font-family: "Open Sans" sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* Статья чизкейк */
+.cheesecake {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 590px;
+    height: 552px;
+    background-image: url(img/cheesecake.png);
+}
+
+/* Заголовок чизкейк */
+.cheesecake h3 {
+    font-family: "Spectral SC" sans-serif;
+    margin-top: 359px;
+    margin-left: 82px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+/* Описание статьи */
+.description-foto {
+    display: block;
+    margin-left: 82px;
+    font-family: "Open Sans" sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+/* Кнопка "Показать ещё" */
+button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 104px;
+    padding: 12px 58px 12px 57px;
+    color: #202117;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+
+}
+
+/* Раздел Обо мне */
+.about-me {
+    width: 1180px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 88px auto auto auto;
+}
+
+.about-me img {
+    display: block;
+    float: left;
+}
+
+/* Заголовок h3  */
+#aboutme {
+    width: 1180px;
+    margin-top: 0;
+    margin-bottom: 49px;
+    font-family: Spectral SC;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 55px;
+    color: #2E2F22;
+    text-align: center;
+}
+
+/* Статья Обо мне */
+.hello {
+    width: 497px;
+    height: 366px;
+    margin-left: 40px;
+    margin-bottom: 150px;
+    font-family: "Open Sans" sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #2E2F22;
+}
+
+cite {
+    display: block;
+    position: absolute;
+    width: 570px;
+    height: 160px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 610px;
+    margin-top: 600px;
+    font-family: "Open Sans" sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 40px;
+    color: #2E2F22;
+    border-left: 3px solid #D7D1C9;
+}
+
+/* Статья Портфолио */
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1200px;
+    height: auto;
+    margin: 85px auto auto auto;
+}
+
+/* Главный заголовок h3 */
+#portfolio {
+    width: 1200px;
+    margin-top: 0;
+    margin-bottom: 49px;
+    font-family: Spectral SC;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 55px;
+    color: #2E2F22;
+    text-align: center;
+}
+
+/* Статья Блог HTML Academy */
+.academy {
+    width: 387px;
+    height: 525px;
+    text-align: center;
+    background-image: url(img/academy.png);
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.15));
+}
+
+/* Заголовки 1й 3й статей */
+.portfolio h3 {
+    margin-top: 140px;
+    font-family: "Spectral SC" sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    color: #2E2F22;
+}
+
+.academy p:only-of-type {
+    width: 277px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lnk h3 {
+    color: #FFFFFF;
+}
+
+.lnk h4:only-of-type {
+    width: 336px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.lnk p:only-of-type {
+    color: #FFFFFF;
+}
+
+/* Подзаголовки 1й 3й статей */
+h4 {
+    font-family: Spectral SC;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    color: #2E2F22;
+}
+
+/* Журнал "ЛНК" */
+.lnk {
+    width: 387px;
+    height: 525px;
+    text-align: center;
+    background-image: url(img/lnk.png);
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.15));
+}
+
+/* Журнал Т-Л */
+.advice {
+    width: 387px;
+    height: 525px;
+    text-align: center;
+    background-image: url(img/tl.png);
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.15));
+}
+
+.advice p:only-of-type {
+    width: 351px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Кнопка Показать ещё */
+input[type="button"] {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #202117;
+}
+
+/* Форма обратной связи */
+.mail-me {
+    display: block;
+    width: 997px;
+    height: auto;
+    margin: 80px auto auto auto;
+}
+
+/* Заголовок h2 */
+#mailme {
+    font-family: Spectral SC;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 55px;
+    color: #2E2F22;
+    text-align: center;
+    margin-top: 0;
+}
+
+/* Форма */
+form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 996px;
+    height: 637px;
+    background-image: url(img/formbackground.png);
+    background-repeat: no-repeat;
+}
+/* Подписи форм общие стили */
+h5 {
+    width: 407px;
+    font-family: Spectral SC;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    color: #2E2F22;
+}
+
+/* Подпись Имя */
+.name {
+    float: left;
+    margin-left: 81px;
+    margin-top: 51px;
+    margin-bottom: 0;
+ 
+}
+
+/* Подпись Email */
+.email {
+    margin-top: 51px;
+    margin-bottom: 0;
+    margin-left: 20px;
+
+}
+
+/* Подпись Сообщение */
+.message {
+    margin-top: 20px;
+    margin-bottom: 0;
+    margin-left: 81px;
+}
+
+/* Общие стили полей */
+input {
+    width: 407px;
+    height: 63px;
+    margin-top: 0;
+    background: rgba(255, 255, 255, 0.4);
+    border: 1px solid #202117;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+/* Поле Имя */
+input[type="text"] {
+    margin-left: 81px;
+    margin-bottom: 0;
+
+}
+
+/* Поле Email */
+input[type="email"] {
+    margin-left: 20px;
+    margin-bottom: 0;
+
+}
+
+/* Поле Сообщение */
+textarea {
+    margin-left: 81px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 20px 20px 20px 20px;
+    background: rgba(255, 255, 255, 0.4);
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #202117;
+    opacity: 0.7;
+}
+
+/* Кнопка Отправить */
+button[type="submit"] {
+    margin-left: 390px;
+    margin-top: 0;
+    margin-bottom: 65px;
+    background: rgba(255, 255, 255, 0);
+}
+
+/* Конец основного содержимого */
+
+/* Подвал */
+.page-footer {
+    margin-top: 81px;
+    width: 1440px;
+    height: 181px;
+    background: #D7D1C9;
+}
+
+.footer-social {
+    width: 700px;
+    height: 40px;
+    margin: 80px auto auto 350px;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.social a {
+    text-decoration: none;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #2E2F22;
+}

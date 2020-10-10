@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Spectral+SC:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Мой блог</title>
+</head>
+<body>
+    <header class="main-header">
+            <div class="logo">
+                <img src="img/logo.png" width="130" height="82" alt="Логотип">
+            </div>     
+            <nav class="main-header-navigation">
+                <ul class="site-navigation">
+                    <li class="site-navigation-item"><a href="#allarticles">Статьи</a></li>
+                    <li class="site-navigation-item"><a href="#aboutme">Обо мне</a></li>
+                    <li class="site-navigation-item"><a href="#portfolio">Портфолио</a></li>
+                    <li class="site-navigation-item"><a href="#mailme">Написать мне</a></li>
+                </ul>
+            </nav>           
+    </header>
+
+    <main>
+      <h1 class="visually-hidden">Личный блог Анны Александровны</h1>
+
+        <article class="all-articles">
+            <div class="heading">
+              <h2 id="allarticles">Все статьи</h2>
+            </div>
+            <div class="down-list">
+                <p class="select">Выбрать тему</p>
+                <img src="img/downlist_triangle.svg">  
+<!--Выпадающий список  <select name="topic" value="Выбрать тему">
+                <option value="allarticles">Все статьи</option>
+                <option value="travel">Путешествия</option>
+                <option value="town">Город</option>
+                <option value="book">Книги</option>
+                <option value="Foto">Фотографии</option>
+                <option value="recipe">Рецепты</option> -->
+            </div>
+            <div class="articles">
+                <section class="berlin">
+                    <img src="img/berlin.jpg" width="387" height="268" alt="Берлин">
+                    <h3>Путешествие в Берлин в августе</h3>
+                    <p class="description">Летний месяц я провела в столице Германии вместе с друзьями. И вот как это было!</p>
+                    <p class="tags">Теги: путешествия</p>
+                    <time datetime="2020.09.20">29.09.2020</time>
+                </section>
+                <section class="coldbru">
+                    <img src="img/coldbru.jpg" width="387" height="268" alt="Колдбрю">
+                    <h3>Где выпить колдбрю в Москве</h3>
+                    <p class="description">Собрала для вас список любимых кофеен, где подают лучший летний напиток.</p>
+                    <p class="tags">Теги: город</p>
+                    <time datetime="2020.07.24">24.07.2020</time>
+                </section>
+                <section class="book-recommendations">
+                    <img src="img/bookrecommendation.jpg" width="387" height="268" alt="Книжные рекоммендации">
+                    <h3>Прочитано: книжные рекомендации</h3>
+                    <p class="description">Рассказываю о прочитанных за последнее время книгах: фавориты и провалы.</p>
+                    <p class="tags">Теги: книги</p>
+                    <time datetime="2020.07.15">15.07.2020</time>
+                </section>
+                <section class="spring-foto">
+                    <h3>Снимки на плёнку</h3>
+                    <p class="description-foto">Поделилась с вами весенними фотографиями, и секретами удачных снимков.</p>
+                    <p class="tags2">Теги: фотографии</p>
+                    <time class="time" datetime="2020.06.29">29.06.2020</time>
+                </section>
+                <section class="cheesecake">
+                    <h3>Домашний чизкейк</h3>
+                    <p class="description-foto">Что может быть лучше чизкейка с сезонными<br> ягодами? Только домашний чизкейк!</p>
+                    <p class="tags2">Теги: рецепты</p>
+                    <time class="time" datetime="2020.06.24">24.06.2020</time>
+                </section>
+            </div>
+            <button type="button" value="Показать ещё">Показать ещё</button>   
+        </article>
+
+        <article class="about-me">
+            <h2 id="aboutme">Обо мне</h2>
+            <img src="img/me.jpg" width="590" height="693" alt="Это я"> 
+            <section class="hello">
+                <p>Всем привет! Меня зовут Аня, и это мой личный блог.<br>
+                Здесь ты найдёшь рассказы о моих путешествиях, снимки
+                на плёнку, рецепты, обзоры на книги. В общем, тексты о том,
+                что мне инетресно.</p>
+                <p>Я работаю копирайтером, поэтому мой блоге — это ещё и моё
+                портфолио. Ниже размещены несколько моих лучших
+                рабочих текстов. Буду рада новым сотрудничествам!</p>
+                <p>Если вы хотите написать мне — это можно сделать в соцсетях
+                или через форму. Всегда приятно услышать обратную связь
+                от читателей и познакомиться поближе.</p>
+                <p>Приятного чтения!</p>
+            </section>    
+                <cite>Я верю, что каждый раз пробуя новое,
+                выходящее за зону моего комфорта,
+                я действительно узнаю настояющую
+                себя.</cite>                   
+        </article>
+
+        <article class="portfolio">
+            <h2 id="portfolio">Портфолио</h2>
+            <div class="academy">
+                <h3>Блог HTML Academy</h3>
+                <h4>«Как учиться продуктивно»</h4>
+                <p>Про основные методы обучения,
+                которые помогут быстро и надолго
+                запомнить информацию.</p>
+            </div>
+            <div class="lnk">
+                <h3>Журнал «LNK»</h3>
+                <h4>«Зачем поцели нужны человеку?<br> И какие они бывают»</h4>
+                <p>Поцелуи — повсеместная ежедневная
+                практика. Но зачем люди целуются?
+                Какие смысли вкладывают в этот ритуал?
+                И где корни этой практики?</p>
+            </div>
+            <div class="advice">
+                <h3>Журнал «Т — Л»</h3>
+                <h4>«Советы по эффективной<br> удалённой работе»</h4>
+                <p>Поделилась лайфхаками, которые помогают
+                мне работать продуктивно из дома. </p>
+            </div>
+            <button type="button">Показать ещё</button>
+        </article>
+        <div class="mail-me">
+            <h2 id="mailme">Написать мне</h2>
+            <form action="submit" method="POST">
+                <h5 class="name">Ваше имя</h5>
+                <h5 class="email">Email</h5>
+                <div>
+                    <label for="your-name"></label>
+                    <input type="text" name="name" id="your-name" value="Иван Иванов">
+                </div>
+                <div>
+                    <label for="email"></label>
+                    <input type="email" name="email" id="email" value="google@gmail.com">
+                </div>
+                <h5 class="message">Сообщения</h5>
+                <div>
+                    <label for="message-field"></label>
+                    <textarea name="message" id="message-field" rows="10" cols="97">Напишите здесь ваше сообщение.</textarea>
+                </div>
+                <div>
+                    <button type="submit">Отправить</button>
+                </div>    
+            </form>
+        </div>    
+    </main>
+    <footer class="page-footer">
+        <div class="footer-social">
+            <ul class="social">
+                <li><a href="#">ВК</a></li>
+                <li><a href="#">Телеграм</a></li>
+                <li><a href="#">Инстаграм</a></li>
+                <li><a href="#">Твиттер</a></li>
+            </ul>
+        </div>
+    </footer>        
+         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
