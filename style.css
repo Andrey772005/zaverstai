@@ -141,6 +141,10 @@ li {
     flex-wrap: wrap;
 }
 
+.articles a {
+    text-decoration: none;
+}
+
 /* Статья Берлин */
 .berlin {
     width: 387px;
