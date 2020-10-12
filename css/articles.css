@@ -1,0 +1,247 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-width: 1440px;
+    height: auto;
+    background: #ffffff;
+    font-family: "Open Sans", "Spectral SC", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 25px;
+    color: #2e2f22;
+
+}
+/* Гланые ссылки */
+.site-navigation-item a {
+    text-decoration: none;
+    font-family: "Open Sans" sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #2e2f22;
+
+}
+/* Список главных ссылок */
+li {
+    list-style: none;
+}
+/* Заголовок h1 */
+.visually-hidden {
+    position: absolute;
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0;
+    border: 0;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+/* Верхний главный контейнер */
+.main-header {
+    min-width: 1440px;
+    height: 581px;
+    background-image: url(../img/articles.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+
+}
+/* Логотип */
+.logo {
+    float: left;
+    width: 230px;
+    height: 82;
+    margin-top: 4px;
+    margin-left: 120px;
+}
+/* Навигация */
+.main-header-navigation {
+    float: right;
+    width: 650px;
+    margin-top: 20px;
+    margin-right: 121px;
+}
+/* Внутренний блок навигации */
+.site-navigation {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/* Конец шапки */
+
+/* Статья как себя мотивировать */
+.motivation {
+    width: 1024px;
+    height: 1480px;
+    margin: 85px auto auto 119px;
+}
+
+h2 {
+    font-family: Spectral SC;
+    margin-top: 0;
+    margin-bottom: 0;
+    clear: both;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 55px;
+    color: #2E2F22;
+}
+
+.tags {
+    display: block;
+    float: left;
+    margin-top: 0;
+    width: 216px;
+    height: 26px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(46, 47, 34, 0.7);
+}
+
+time {
+    display: block;
+    float: left;
+    width: 83px;
+    height: 26px;
+    margin-left: 18px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(46, 47, 34, 0.7);
+}
+
+.theory {
+    padding-left: 20px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #2E2F22;
+}
+
+.article {
+    width: 997px;
+    display: block;
+    clear: both;
+    padding-bottom: 10px;
+}
+
+.foto {
+    margin-top: 0;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 26px;
+    color: #2E2F22;
+}
+
+h3 {
+    display: block;
+    float: left;
+    width: 300px;
+    height: 49px;
+    margin-bottom: 0;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    color: #2E2F22;
+}
+
+.svg-social {
+    display: block;
+    margin-bottom: 0;
+    min-width: 1018px;
+    height: 50px;
+}
+
+.svg-social img:nth-child(1) {
+    margin-right: 14px;
+}
+
+.svg-social img:nth-child(2) {
+    margin-right: 655px;
+}
+
+.svg-social img:nth-child(3),
+               :nth-child(4)  {
+    margin-right: 32px;
+}
+
+.motivation a {
+    display: block;
+    margin-left: 305px;
+    margin-top: 52px;
+    width: 62px;
+    height: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Подвал */
+.page-footer {
+    margin-top: 81px;
+    width: 1440px;
+    height: 181px;
+    background: #D7D1C9;
+}
+
+.footer-social {
+    width: 700px;
+    height: 40px;
+    margin: 80px auto auto 350px;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.social a {
+    text-decoration: none;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #2E2F22;
+}
