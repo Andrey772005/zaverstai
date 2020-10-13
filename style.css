@@ -18,7 +18,7 @@ body {
 /* Гланые ссылки */
 .site-navigation-item a {
     text-decoration: none;
-    font-family: "Open Sans" sans-serif;
+    font-family: "Open Sans";
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -53,7 +53,7 @@ li {
 .logo {
     float: left;
     width: 230px;
-    height: 82;
+    height: 82px;
     margin-top: 4px;
     margin-left: 120px;
 }
@@ -126,7 +126,7 @@ li {
     display: inline-block;
     margin-left: 20px;
     margin-top: 11px;
-    font-family: "Open Sans" sans-serif;
+    font-family: "Open Sans";
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -160,7 +160,7 @@ li {
     box-sizing: border-box;
     margin-top: 12px;
     margin-bottom: 0px;
-    font-family: "Spectral SC" sans-serif;
+    font-family: "Spectral SC";
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
@@ -170,7 +170,7 @@ li {
 /* Краткое описание всех статей */
 .description  {
     display: block;
-    font-family: "Open Sans" sans-serif;
+    font-family: "Open Sans";
     margin-top: 2px;
     margin-bottom: 12px;
     font-style: normal;
@@ -184,7 +184,7 @@ li {
     display: block;
     float: left;
     margin-top: 0;
-    font-family: "Open Sans" sans-serif;
+    font-family: "Open Sans";
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -196,7 +196,7 @@ li {
 time {
     display: block;
     float: right;
-    font-family: "Open Sans" sans-serif;
+    font-family: "Open Sans";
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -220,7 +220,7 @@ time {
     box-sizing: border-box;
     margin-top: 12px;
     margin-bottom: 0px;
-    font-family: "Spectral SC" sans-serif;
+    font-family: "Spectral SC";
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
@@ -244,7 +244,7 @@ time {
     box-sizing: border-box;
     margin-top: 12px;
     margin-bottom: 0px;
-    font-family: "Spectral SC" sans-serif;
+    font-family: "Spectral SC";
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
@@ -261,7 +261,7 @@ time {
 }
 
 .spring-foto h3{
-    font-family: "Spectral SC" sans-serif;
+    font-family: "Spectral SC";
     margin-top: 359px;
     margin-left: 82px;
     font-style: normal;
@@ -274,7 +274,7 @@ time {
 .description-foto {
     display: block;
     margin-left: 82px;
-    font-family: "Open Sans" sans-serif;
+    font-family: "Open Sans";
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -287,7 +287,7 @@ time {
     margin-top: 0;
     margin-left: 82px;
     float: left;
-    font-family: "Open Sans" sans-serif;
+    font-family: "Open Sans";
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -297,7 +297,7 @@ time {
 /* Дата статей фото и чизкейк */
 .time {
     margin-right: 79px;
-    font-family: "Open Sans" sans-serif;
+    font-family: "Open Sans";
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -316,7 +316,7 @@ time {
 
 /* Заголовок чизкейк */
 .cheesecake h3 {
-    font-family: "Spectral SC" sans-serif;
+    font-family: "Spectral SC";
     margin-top: 359px;
     margin-left: 82px;
     font-style: normal;
@@ -330,7 +330,7 @@ time {
 .description-foto {
     display: block;
     margin-left: 82px;
-    font-family: "Open Sans" sans-serif;
+    font-family: "Open Sans";
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -386,7 +386,7 @@ button {
     height: 366px;
     margin-left: 40px;
     margin-bottom: 150px;
-    font-family: "Open Sans" sans-serif;
+    font-family: "Open Sans";
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -404,7 +404,7 @@ cite {
     padding-bottom: 20px;
     margin-left: 610px;
     margin-top: 600px;
-    font-family: "Open Sans" sans-serif;
+    font-family: "Open Sans";
     font-style: italic;
     font-weight: normal;
     font-size: 30px;
@@ -449,7 +449,7 @@ cite {
 /* Заголовки 1й 3й статей */
 .portfolio h3 {
     margin-top: 140px;
-    font-family: "Spectral SC" sans-serif;
+    font-family: "Spectral SC";
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
