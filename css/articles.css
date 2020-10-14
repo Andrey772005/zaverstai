@@ -168,17 +168,37 @@ h3 {
     height: 50px;
 }
 
-.svg-social img:nth-child(1) {
-    margin-right: 14px;
+.likes {
+    display: inline-block;
+    width: 90px;
+    height: 50px;
+    padding: 0;
+    outline: none;
+    border: none;
+}
+
+.likes-number {
+    margin-left: 10px;
+    padding: 0;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    border: none;
+    font-size: 24px;
+    line-height: 26px;
+    color: #2E2F22;
 }
 
 .svg-social img:nth-child(2) {
-    margin-right: 655px;
+    margin-left: 685px;
 }
 
-.svg-social img:nth-child(3),
-               :nth-child(4)  {
-    margin-right: 32px;
+.svg-social img:nth-child(3) {
+    margin-left: 28px;
+}
+
+.svg-social img:nth-child(4) {
+    margin-left: 28px;
 }
 
 .motivation a {
@@ -205,10 +225,9 @@ h3 {
     padding-top: 0;
     background: #ECE1E1;
     border-radius: 10px;
-    border: teal 2px dotted;
 }
 
-.new-comments img {
+ .new-comments img {
     display: block;
     float: left;
     margin-left: 101px;
