@@ -640,6 +640,14 @@ button[type="submit"] {
     background: rgba(255, 255, 255, 0);
 }
 
+.submit-button:disabled {
+    opacity: 0.25;
+}
+
+.warning:focus {
+    outline-color: #f05b29;
+}
+
 /* Конец основного содержимого */
 
 /* Подвал */
