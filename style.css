@@ -5,6 +5,7 @@ body {
     display: flex;
     flex-direction: column;
     min-width: 1440px;
+    width: auto;
     height: auto;
     background: #ffffff;
     font-family: "Open Sans", "Spectral SC", sans-serif;
