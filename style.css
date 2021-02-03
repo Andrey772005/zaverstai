@@ -653,7 +653,7 @@ button[type="submit"] {
 /* Подвал */
 .page-footer {
     margin-top: 81px;
-    width: 1440px;
+    width: 100%;
     height: 181px;
     background: #D7D1C9;
 }
